@@ -34,7 +34,7 @@ function onButtonClick() {
     }
     numberOfIterations = numberOfIterations - 1
   }
-  currentAction == "minus"
+  currentAction = "minus"
   number = 1
   document.getElementById("result").innerHTML = "<p>π is equal to " + pi + "</p>"
 }
